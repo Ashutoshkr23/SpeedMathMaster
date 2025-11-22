@@ -3,8 +3,7 @@
     "name": "SpeedMathMaster",
     "slug": "SpeedMathMaster",
     "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "orientation": "portrait",    "icon": "./assets/images/icon.png",
     "scheme": "speedmathmaster",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
@@ -44,6 +43,12 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "54e275dd-018a-403b-9aee-ab3a7c9bf249"
+      }
     }
   }
 }
